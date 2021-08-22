@@ -16,9 +16,11 @@
 - HTML, CSS, JavaScript, TypeScript.
 - Docker, React, Spring, Java
 
+### Демо:
+[https://rtdesign.finebot.site](https://rtdesign.finebot.site)
+
 ### Среда запуска:
-- Развертывание сервиса производится на Windows 10, но так же поддерживаются и другие OC.
-- Требуется установленный docker
+- Развертывание сервиса протестировано под Windows 10
 
 ### Установка
 Выполните:
@@ -26,7 +28,7 @@
 **например пробрасывается 8080 наружу*
 ```dockerfile
 docker pull redbird127/rtback
-docker run --name rtback -p8080:8080 rtback
+docker run --name rtback -p8080:8080 redbird127/rtback:latest
 ```
 
 ### Разработчики
