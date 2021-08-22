@@ -9,6 +9,7 @@ import java.net.MalformedURLException;
 @Slf4j
 @RestController
 @RequestMapping("img")
+@CrossOrigin(origins = "*")
 public class MockupController {
 
     private final MockupService mockupService;
